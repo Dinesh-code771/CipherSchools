@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.stopWatch{
+   width: 50%;
+    height: 120px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 40%;
+   left: 25%;
+   border: 1px solid gray;  
+   font-size:large;
+}
+.stopWatch h6{
+    font-style: oblique;
+}
+.time{
+    padding: 10px 10px;
+}
